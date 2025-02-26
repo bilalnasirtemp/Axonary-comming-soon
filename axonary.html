@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axonary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+        }
+        section {
+            width: 100%;
+            height: 100%;
+            background-image: url('./AXONARY\ LOGO.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            object-position: center;
+            position: relative;
+        }
+        .coming-soon {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            color: white;
+            font-size: 3rem;
+            animation: highlight 2s infinite alternate;
+            text-align: right;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        @keyframes highlight {
+            0% {
+                color: white;
+                text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+            }
+            100% {
+                color: #6A0BCA;
+                text-shadow: 0 0 15px rgba(106, 11, 202, 0.7);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 class="coming-soon">Coming Soon...</h1>
+    </section>
+</body>
+</html>
